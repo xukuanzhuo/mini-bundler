@@ -7,7 +7,7 @@
     "example": "example"
   },
   "scripts": {
-    "bundle": "node bundler.js | js-beautify"
+    "bundle": "node bundler.js"
   },
   "author": "xu kz",
   "license": "MIT",
