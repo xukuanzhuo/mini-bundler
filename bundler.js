@@ -97,3 +97,5 @@ const graph = createGraph('./example/entry.js')
 const result = bundle(graph)
 
 console.log(result)
+
+console.log('-----------------')

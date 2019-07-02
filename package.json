@@ -7,7 +7,8 @@
     "example": "example"
   },
   "scripts": {
-    "bundle": "node bundler.js"
+    "bundle": "node bundler.js | js-beautify",
+    "shake": "node shaker/shake.js"
   },
   "author": "xu kz",
   "license": "MIT",
@@ -17,5 +18,9 @@
     "babel-preset-env": "^1.7.0",
     "babel-traverse": "^6.26.0",
     "babylon": "^6.18.0"
+  },
+  "devDependencies": {
+    "escodegen": "^1.11.1",
+    "esprima": "^4.0.1"
   }
 }
